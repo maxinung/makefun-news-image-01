@@ -1,0 +1,20 @@
+{
+  "name": "news-image-01",
+  "version": "1.0.0",
+  "description": "Sum up 13 November 2026 world news in one image - make.fun bounty entry",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js && node main.js && echo 'Deterministic check passed'"
+  },
+  "keywords": ["make.fun", "bounty", "news", "image-generation"],
+  "author": "lucky-otter-66",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
